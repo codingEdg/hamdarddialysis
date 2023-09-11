@@ -22,7 +22,7 @@ ReactV18.2 Typescript, Tailwind-Css, React-Icons, React-RouterV6 Axios
 ## Usage
 
 To use my project, you can do the following:
-#pull the main branch
-#npm install
-#done
+-pull the main branch
+-npm install
+-done
 

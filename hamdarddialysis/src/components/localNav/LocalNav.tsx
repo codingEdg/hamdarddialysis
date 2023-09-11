@@ -64,7 +64,7 @@ export default function LocalNav() {
             <h1 className="text-sky-800 text-2xl md:text-4xl font-semibold">
               {tabData.title}
             </h1>
-            <h6 className="">{tabData.para}</h6>
+            <h6 className="dark:text-yellow-300 ">{tabData.para}</h6>
 
             <button className="group py-1 md:py-2 border border-blue-600 text-blue-600 w-40 flex flex-row  justify-center items-center gap-3 hover:border-blue-400 hover:text-blue-400 hover:w-64 hover:border-2 focus:text-blue-700 focus:border-blue-700 transition-transform duration-300 ease-in-out ">
               Learn More

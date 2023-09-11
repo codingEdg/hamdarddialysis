@@ -3,7 +3,7 @@ import { servicesCardData as cards } from "../../assets/static/servicesData";
 
 const HealthCareServices = () => {
   return (
-    <section className="w-full p-5 my-20 flex flex-col items-center justify-center gap-10 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+    <section className="w-full p-3 my-20 flex flex-col items-center justify-center gap-5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
       <div className="flex flex-col gap-2 items-center">
         <h1 className="text-xl md:text-2xl font-lora text-slate-200">
           Departments of Curing Decease

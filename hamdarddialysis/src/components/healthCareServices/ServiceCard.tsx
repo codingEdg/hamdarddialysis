@@ -14,7 +14,7 @@ interface Card {
 
 const ServiceCard = ({ card }: Props) => {
   return (
-    <section className="max-w-2xl mx-auto">
+    <section className="max-w-2xl ">
       <div className="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
         <div className="w-full overflow-hidden">
           <img

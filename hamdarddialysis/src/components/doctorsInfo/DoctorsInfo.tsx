@@ -3,7 +3,7 @@ import { doctorImageData as cards } from "../../assets/static/cardImages";
 
 const DoctorsInfo = () => {
   return (
-    <section className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-20 pt-10">
+    <section className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-5 pt-10">
       <div className="w-full flex flex-col justify-center items-center gap-3 ">
         <h1 className="text-sky-800 font-lora text-5xl font-bold ">
           Our Doctors

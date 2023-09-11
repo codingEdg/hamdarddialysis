@@ -212,3 +212,9 @@ const HomeCarousel: React.FC = () => {
 };
 
 export default HomeCarousel;
+**************************************************************************************
+
+
+HAMDARDDIALYSIS is a renowned healthcare facility specializing in nephrology, dialysis, and various medical treatments. Our expert nephrologists and cutting-edge dialysis unit provide exceptional care. We also offer comprehensive medical treatments onsite and have dedicated ambulance services for emergencies. With a patient-centered approach, we prioritize your well-being and strive to be your trusted healthcare partner.
+
+

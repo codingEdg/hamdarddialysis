@@ -1,0 +1,35 @@
+.mobile-tabs {
+  /* Set initial position */
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+
+  /* Delay the transition effect */
+  transition-delay: 0.5s;
+}
+
+.mobile-tabs.open {
+  /* Slide in and fade in when open */
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  transition-delay: 0s; /* No delay when opening */
+}
+
+.tab-item {
+  /* Set initial position */
+  transform: translateY(-10px);
+  opacity: 0;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+
+  /* Delay the transition effect */
+  transition-delay: 1s;
+}
+
+.mobile-tabs.open .tab-item {
+  /* Slide in and fade in when open */
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  transition-delay: 0.5s;
+}
